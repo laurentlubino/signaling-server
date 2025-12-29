@@ -11,7 +11,7 @@ const io = new Server(httpServer, {
   },
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3030;
 
 // Health check endpoint for Render
 app.get('/health', (_req, res) => {
